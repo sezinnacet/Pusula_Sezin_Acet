@@ -17,8 +17,8 @@ encoding categorical variables, and normalizing numerical variables. The key tas
 **Instructions to Run the Code**
 1. Clone the Repository: First, clone the GitHub repository to your local machine:
    
-   git clone https://github.com/your-repo-url.git
-   cd your-repo-folder
+   git clone https://github.com/sezinnacet/Pusula_Sezin_Acet
+   cd Pusula_Sezin_Acet
 
 2. Install Required Libraries: Install the required Python libraries using pip:
    

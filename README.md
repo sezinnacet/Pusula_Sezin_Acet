@@ -1,18 +1,34 @@
 Name & Surname : Sezin Acet
-e-mail address : sezinnacet@gmail.com
+E-mail address : sezinnacet@gmail.com
 
 **Data Science Intern Case Study**
 
 **Overview**
 
-This project aims to analyze a dataset related to side effects caused by medications. The project involves handling missing data,
-encoding categorical variables, and normalizing numerical variables. The key tasks performed include:
+This document summarizes the data analysis and preprocessing steps taken in the project on medication side effects. Throughout the project, 
+tasks such as handling missing data, encoding categorical variables, and normalizing numerical variables were carried out.
 
-- Loading the dataset
-- Filling missing values using KNNImputer
-- Encoding categorical variables using OneHotEncoder
-- Standardizing numerical data using StandardScaler
-- Visualizing key aspects of the dataset such as gender distribution, top side effects, and the relationship between height and weight
+**Data Analysis and Preprocessing Steps**
+
+a. Handling Missing Data
+- Method: KNNImputer
+- Missing values in the dataset were filled using the KNN algorithm, which utilizes neighboring data points. During this process, categorical variables such as gender,
+  nationality, city, and blood type were converted into numerical values, and missing values in weight and height were imputed.
+  
+b. Encoding Categorical Variables
+- Method: OneHotEncoder
+- Categorical variables like gender, nationality, city, and blood type were encoded into binary (0 and 1) values to make them suitable for use in machine learning algorithms.
+
+c. Normalizing Numerical Data
+- Method: StandardScaler
+- Numerical columns such as weight and height were normalized to bring the data to a standard scale.
+  This ensures consistent results during modeling and helps avoid issues related to differing data ranges.
+
+**Conclusion**
+
+The data preprocessing steps resulted in a clean, complete, and ready-to-use dataset for modeling. Missing values were filled, categorical variables were encoded, 
+and numerical data was normalized. These steps ensured the dataset was properly prepared for further analysis and modeling.
+
   
 **Instructions to Run the Code**
 1. Clone the Repository: First, clone the GitHub repository to your local machine:
